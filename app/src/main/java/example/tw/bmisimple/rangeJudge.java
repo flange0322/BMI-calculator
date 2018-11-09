@@ -14,7 +14,7 @@ public class rangeJudge {
     public String getString(){
         String ans = null;
         if(BMI<18.5)
-            ans = "體重過輕!";
+            ans = "體重過輕";
         else if(24>BMI&&BMI>=18.5)
             ans = "正常範圍";
         else if(27>BMI&&BMI>=24)

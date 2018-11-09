@@ -4,12 +4,11 @@
     <string name="app_length">身高</string>
     <string name="app_weight">體重</string>
     <string name="app_button">計算BMI</string>
-    <string name="app_defaultHeight">請輸入身高</string>
-    <string name="app_defaultWeight">請輸入體重</string>
-    <string name="app_MyInformation">作者介紹</string>
-    <string name="Author_Name">黃智斌</string>
-    <string name="My_Major">長榮大學資工系3A</string>
-    <string name="My_Phone">09-78015868</string>
-    <string name="My_Pic">我的帥照</string>
+    <string name="app_defaultHeight">請輸入身高(單位:公分(cm))</string>
+    <string name="app_defaultWeight">請輸入體重(單位:公斤(kg))</string>
+    <string name="app_MyInformation">作者資訊</string>
+    <string name="Author_Name">姓名:黃智斌</string>
+    <string name="My_Major">班級:長榮大學資工系3A</string>
+    <string name="My_Number">學號:F74561195</string>
     <string name="return_btn">返回</string>
 </resources>

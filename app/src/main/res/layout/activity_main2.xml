@@ -8,21 +8,6 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/AuName_Textview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/Author_Name"
-        android:textSize="28sp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mypic"
-        android:contentDescription="@string/My_Pic" />
-
-    <TextView
         android:id="@+id/MyMajor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,14 +18,14 @@
         android:id="@+id/MyPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/My_Phone"
+        android:text="@string/My_Number"
         android:textSize="25sp" />
 
-    <Button
-        android:id="@+id/Return_Btn"
+    <TextView
+        android:id="@+id/AuName_Textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="previousPage"
-        android:text="@string/return_btn" />
+        android:text="@string/Author_Name"
+        android:textSize="25sp" />
 
 </LinearLayout>
